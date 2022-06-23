@@ -119,14 +119,17 @@ article p{
 
     #article_1{
         width: 48.5%;
+        max-height: 180px;
     }   
 
     #article_2{
         width: 48.5%;
+        max-height: 180px;
     }   
 
     #article_3{
         width: 32%;
+        max-height: 180px;
     }   
 
     h1{
