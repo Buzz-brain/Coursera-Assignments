@@ -12,7 +12,6 @@ body{
 main{
     width: 85%;
     margin: 0 auto;
-    /*border: 1px solid red;*/
 }
 
 h1{
@@ -48,17 +47,13 @@ h2{
     max-width: 140px;
 }
 
-
-
 article p{
     width: 95%;
     margin: 0 auto .5rem auto;
     font-size: .8rem;
     line-height: 1.52em;
     font-weight: 700;
-    
 }
-
 
 #article_1 h2{
     background-color: rgb(215, 123, 123);
@@ -75,7 +70,12 @@ article p{
 
 
 
+/*--------------------MEDIA QUERIES------------------*/
+/*--------------------MEDIA QUERIES------------------*/
+/*--------------------MEDIA QUERIES------------------*/
 
+/*----------------Tablet Version--------------*/
+/*----------------Tablet Version--------------*/
 @media (min-width: 768px) and (max-width: 991px) {
     main{
         width: 95%;
@@ -90,33 +90,37 @@ article p{
     #article_1{
         margin-right: .5rem;
     }
+
     #article_2{
         margin-left: .5rem;
     }
 }
 
 
-
-
+/*----------------Desktop Version--------------*/
+/*----------------Desktop Version--------------*/
 @media ( min-width: 992px) {
     main{
         width: 95%;
     }
+
     .section_1{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
     } 
+
     .section_2{
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 66%;
     } 
+
     #article_1{
         width: 48.5%;
     }   
+
     #article_2{
         width: 48.5%;
     }   
@@ -131,9 +135,4 @@ article p{
     }
 }
 
-/*
-desktop version( min-width: 992px) and (max-width: ?????)
-tablet version( min-width: 768px) and (max-width: 991px)
-mobile version( min-width: ?????px) and (max-width: 767px)
-*/
 
