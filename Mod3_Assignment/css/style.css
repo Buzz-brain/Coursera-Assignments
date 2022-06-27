@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    color: white;
+    background: #61122f;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/*---HEADER STYLING---*/
+/*---HEADER STYLING---*/
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%; 
+}
+
+.nav-header button.navbar-toggler{
+    border: 1px solid #61122f;
+}
+
+a.navbar-brand{
+    color: #4f8132;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #222;
+    font-size: 2rem;
+    padding: 0;
+}
+
+#nav-list{
+    border-top: 1px solid white;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+#nav-list a{
+    color: #951C49;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#nav-list a:hover{
+    background: #E7E7E7;
+}
+
+#nav-list li{
+    background-color: #f6b319;
+    padding: 10px 0 10px 0;  
+    border-bottom: 1px solid rgb(19, 18, 18, 0.2);
+}
+
+#nav-list li:hover{
+    background-color: #E7E7E7;
+}
+
+
+/*----MAIN STYLING----*/
+/*----MAIN STYLING----*/
+#text{
+    background-color: rgb(107, 106, 106);
+    padding: 5px 30px; 
+}
+
+.menu-pg{
+    margin-top: 20px;
+    margin-bottom: 27px;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.chicken-txt{
+    margin-bottom: 6px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+/*----END OF STYLING----*/
+/*----END OF STYLING----*/
