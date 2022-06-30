@@ -1,0 +1,476 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: black;
+    font-family: 'Nunito Sans', sans-serif;
+}
+/*
+.container{
+    background-color: red;  
+}
+*/
+/*------------HEADER STYLING------------*/
+/*--------------------------------------*/
+header{
+    margin-bottom: 35px;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 1px solid red;*/
+    height: 15vh;
+    width: 100%;
+}
+
+/*-----------Going to re-edit this-------------*/
+#logo{
+    /*border: 1px solid red;*/
+    background-color: #F9D311;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    padding-left: 15px;
+  /*--Not Working--transform: rotate(40deg);  */ 
+}
+a.navbar-brand{
+    /*transform: rotate(-40deg);*/
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #222;
+    font-weight: 700;
+}
+/*-----------Going to re-edit the above-------------*/
+
+
+
+/*------------BUTTON / NAV MENU STYLING------------*/
+/*-------------------------------------------------*/
+.navbar-toggler, .navbar-toggler-icon{
+    background-color: yellow;
+}
+
+#nav-list{
+    border-top: 1px solid white;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+#nav-list a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#nav-list a span{
+    color: rgba(249, 211, 17, 1);
+}
+
+#nav-list li{
+    padding: 10px 0 10px 0;  
+    border-bottom: 1px solid rgb(19, 18, 18, 0.2);
+    list-style-type: none;
+    transition: .150s ease;
+}
+
+#nav-list li:hover{
+    background-color: #E7E7E7;
+    color: rgba(249, 211, 17, 1);
+    text-shadow: 1px 1px 1px #222;
+}
+
+
+/*---------------MAIN SECTION STYLING--------------*/
+/*-------------------------------------------------*/
+#article_1{
+    margin-bottom: 100px;
+    /*border: 1px solid yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+}
+
+/*------FIRST SECTION OF JUMBOTRON------*/
+/*--------------------------------------*/
+#Hero_txt{
+    position: relative;
+    margin-bottom: 50px;
+    /*border: 1px solid yellow*/
+}
+
+article section svg{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 97px;
+    height: 93px;
+}
+
+article section span svg{
+    position: absolute;
+    left: 5px;
+    top: 27px;
+    width: 97px;
+    height: 93px;
+}
+
+#Hero_txt h6{
+    color: white;
+    font-size: 1.75rem;
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+
+#Hero_txt h1{
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 600;
+    max-width: 460px;
+    /*border: 1px solid red;*/
+    margin-bottom: 15px;
+
+}
+
+#Hero_txt h1 span{
+    color:rgba(249, 211, 17, 1);   
+}
+
+#Hero_txt p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 13px;
+    font-weight: 500;
+    max-width: 350px;
+    margin-bottom: 17px;
+    word-spacing: 1px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    /*border: 1px solid red;*/
+}
+
+#Hero_txt button{
+    background:rgba(249, 211, 17, 1);
+    border-radius: 32px;
+    width: 108px;
+    height: 45px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    transition: all .150s ease;
+}
+
+#Hero_txt button:hover{
+    background:transparent;
+    border: 2px solid rgba(249, 211, 17, 1);
+    color: white;
+}
+
+article section #btn{
+    position: absolute;
+    width: 145px;
+    height: 44px;
+    left: 90px;
+    top: 240px;
+    transform: rotate(-1deg);
+}
+
+/*------SECOND SECTION OF JUMBOTRON------*/
+/*---------------------------------------*/
+#Hero_img{
+    position: relative;
+    /*border: 1px solid red*/
+}
+
+article section img{
+    width: 250px;
+    height: 360px;
+    /*border-radius: 50%;
+    border: 1px solid red;*/
+}
+
+#Hero_img svg{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 250px;
+    top: 15px;
+
+    transform: rotate(35.06deg);
+}
+
+
+/*---------------SKILLS STYLING----------*/
+/*---------------------------------------*/
+#skills{
+    /*height: 80vh;
+    border: 1px solid purple;*/
+    margin-bottom: 100px;
+}
+
+#skills h6{
+    color:rgba(132, 145, 160, 1);
+    font-size: 1rem; 
+    margin-bottom: 10px;
+}
+
+#skills #heading h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    max-width: 420px;
+    /*border: 1px solid red;*/
+    margin-bottom: 20px;
+}
+/*
+#skills section{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+*/
+
+/*--------First-------*/
+
+.first, .second, .third{
+    width: 300px;
+    /*border: 1px solid red;*/
+    margin-right: 35px;
+}
+
+#skills section .first h1, 
+#skills section .first h3 span{
+    color: #9CFE6D;
+}
+#skills section .second h1, 
+#skills section .second h3 span{
+    color: #11F9F9;
+}
+#skills section .third h1, 
+#skills section .third h3 span{
+    color: #FF4B8D;
+}
+
+#skills section .first h1, 
+#skills section .second h1,
+#skills section .third h1{
+    opacity: 0.8;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1px;
+}
+
+#skills section .first h3, 
+#skills section .second h3,
+#skills section .third h3{
+    color: white;
+    font-size: .95rem;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+#skills section .first h3 span, 
+#skills section .second h3 span,
+#skills section .third h3 span{
+    opacity: 0.8;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+#skills section .first p,
+#skills section .second p,
+#skills section .third p{
+    color: rgba(255, 255, 255, 0.822);
+    font-size: .8rem;
+    font-weight: lighter;
+    width: 300px;
+    line-height: 18px;
+    /*border: 1px solid red;*/
+}
+
+
+
+
+/*--------------------LET'S TALK BUSINESS-----------------*/
+/*--------------------------------------------------------*/
+#business{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;*/
+    margin-bottom: 100px;
+}
+
+#text{
+    /*border: 1px solid red;
+    height: 382px;*/
+}
+
+#business #text h1{
+    color: white;
+    font-size: 2rem;
+    /*border: 1px solid red;*/
+    margin-bottom: 20px;
+    word-spacing: 3px;
+}
+
+#business #text p{
+    /*border: 1px solid red;*/
+    max-width: 320px;
+    color:rgba(132, 145, 160, 1);
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 18px;
+}
+
+
+
+#business #input_field{
+    color: white;
+    /*border: 1px solid red;*/
+}
+
+#business #input_field #name{
+    background-color:rgba(41, 41, 50, 1);
+    max-width: 400px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    margin-bottom: 25px;
+    color: white
+}
+
+#business #input_field #email{
+    background-color:rgba(41, 41, 50, 1);
+    max-width: 400px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    margin-bottom: 25px;
+    color: white
+}
+
+#business #input_field #message{
+    background-color:rgba(41, 41, 50, 1);
+    max-width: 400px;
+    width: 90%;
+    height: 100px;
+    border: none;
+    margin-bottom: 25px;
+    color: white
+}
+
+#business #input_field button{
+    background: #F9D311;
+    max-width: 400px;
+    width: 90%;
+    height: 53px;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    transition: .150s ease;
+}
+
+#business #input_field button:hover{
+    background:transparent;
+    border: 2px solid #F9D311;
+    color: white;
+}
+
+
+
+/*--------------------FOOTER-----------------*/
+/*-------------------------------------------*/
+footer{
+    /*border: 1px solid red;*/
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: rgba(3, 27, 27, 1);
+    
+}
+footer #footer_0{
+    margin-bottom: 50px;
+    
+    /*display: flex;
+        height: 37vh;
+    justify-content: space-between;
+    border: 1px solid red;
+    align-items: baseline;*/
+}
+
+#footer_1{
+    /*border: 1px solid red;
+    margin-left: 150px;
+    margin-top: 70px;*/
+}
+#footer_1 #logo_footer{
+    /*border: 1px solid red;*/
+    background-color: rgb(15, 242, 250);
+    border-radius: 50%;
+    width: 56.25px;
+    height: 49px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    /* Ellipse 131 
+    position: absolute;
+    left: 20.81px;
+    top: -13.26px;
+    */
+    margin-bottom: 28px;
+    background: #F9D311;
+    transform: rotate(40deg);
+}
+
+#footer_1 #logo_footer h1{
+    transform: rotate(-40deg);
+    font-size: 25px;
+}
+
+#footer_1 img{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    /*border: 1px solid red;*/
+}
+
+#footer_2{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+    /*border: 1px solid red;
+    margin-right: 350px;
+    margin-top: 70px;*/
+}
+
+#footer_2 ul{
+    list-style-type: none;
+}
+
+#footer_2 ul li{
+  margin-bottom: 17px;
+}
+
+#footer_2 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    transition: all .150s ease;
+}
+
+#footer_2 ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+footer h6{
+    color:rgba(132, 145, 160, 1);
+    font-size: 13px;
+    font-weight: bold;
+
+}
